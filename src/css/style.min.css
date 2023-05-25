@@ -11231,3 +11231,41 @@ only screen and (min-width:480px) and (max-width:767px) {
     transform: translateX(0)
   }
 }
+
+.pretty-link {
+  color: #2c649b;
+  text-decoration: underline;
+}
+
+.complaints-template .header {
+  height: 400px;
+}
+
+.complaints-template .header-cta {
+  top: 75%;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.address-list {
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.list {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.footer-links__item {
+  margin: 0 0.5em;
+}
