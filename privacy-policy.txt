@@ -409,8 +409,7 @@
 							are responsible as a data controller of that personal data for the purposes of those laws.
 						</p>
 						<p>When we mention “Advance Mortgage And Protection”, “we”, “us” or “our” we are referring to
-							Andrew David Swindles whose registered office is at The Old Post House, 12 High Street,
-							Flimwell, Wadhurst, East Sussex, TN5 7PB.
+							Andrew David Swindles.
 							<br />Andrew David Swindles (trading as Advance Mortgage
 							And Protection) is authorised and regulated by the Financial Conduct Authority. Financial
 							Services Register number is 758967.
@@ -906,8 +905,7 @@
 					<div class="l-col">
 						<small>
 							Advance Mortgage And Protection is a trading style of Andrew
-							David Swindles. Registered office: The Old Post House, 12 High
-							Street, Flimwell, Wadhurst, East Sussex, TN5 7PB.
+							David Swindles.
 						</small>
 						<small>
 							Andrew David Swindles is an Appointed Representative of

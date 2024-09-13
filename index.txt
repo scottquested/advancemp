@@ -196,7 +196,7 @@
 		<link rel="stylesheet" href="./src/css" media="all" />
 	</head>
 	<body
-		class="home complaints-template page-template-template-home page-template-template-home-php page page-id-5"
+		class="home page-template page-template-template-home page-template-template-home-php page page-id-5"
 		contenteditable="false"
 	>
 		<div
@@ -493,7 +493,7 @@
 						<div class="header-top-bar-wrap header-col-md">
 							<div class="header-logo-wrap header-col">
 								<a
-									href="./"
+									href="https://advancemp.co.uk/"
 									onclick='ga("send", "event", { eventCategory: "Link", eventAction: "Click", eventLabel: "Site Logo"});'
 								>
 									<img
@@ -521,19 +521,58 @@
 								<ul class="header-nav-list">
 									<li class="header-nav-list-item u-text-center">
 										<a
-											class="header-nav-list-item-link"
-											href="./"
-											onclick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Click', eventLabel: 'Home'});"
+											class="header-nav-list-item-link js-header-nav-item"
+											href="https://advancemp.co.uk/#services"
+											data-scroll-target=".js-services"
+											onclick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Click', eventLabel: 'Services'});"
 										>
 											<span class="header-nav-list-item-icon">
 												<svg
 													role="presentation"
 													class="icon header-nav-list-item-icon"
 												>
-													<use xlink:href="#icon-home"></use>
+													<use xlink:href="#icon-controls"></use>
 												</svg>
 											</span>
-											<span>Home</span>
+											<span>Services</span>
+											<span class="chevron bottom"></span>
+										</a>
+									</li>
+									<li class="header-nav-list-item u-text-center">
+										<a
+											class="header-nav-list-item-link js-header-nav-item"
+											href="https://advancemp.co.uk/#testimonials"
+											data-scroll-target=".js-testimonials"
+											onclick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Click', eventLabel: 'Testimonials'});"
+										>
+											<span class="header-nav-list-item-icon">
+												<svg
+													role="presentation"
+													class="icon header-nav-list-item-icon"
+												>
+													<use xlink:href="#icon-testimonials"></use>
+												</svg>
+											</span>
+											<span>Testimonials</span>
+											<span class="chevron bottom"></span>
+										</a>
+									</li>
+									<li class="header-nav-list-item u-text-center">
+										<a
+											class="header-nav-list-item-link js-header-nav-item"
+											href="https://advancemp.co.uk/#contact-us"
+											data-scroll-target=".js-contact"
+											onclick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Click', eventLabel: 'Contact Us'});"
+										>
+											<span class="header-nav-list-item-icon">
+												<svg
+													role="presentation"
+													class="icon header-nav-list-item-icon"
+												>
+													<use xlink:href="#icon-smartphone"></use>
+												</svg>
+											</span>
+											<span>Contact Us</span>
 											<span class="chevron bottom"></span>
 										</a>
 									</li>
@@ -546,8 +585,30 @@
 				<div class="flex-item-grow">
 					<div class="header-cta l-shadow-wrap-padding">
 						<h1 class="header-cta-title">
-							<strong>Complaints</strong>
+							<p>
+								Helping you <strong>buy</strong> your <strong>home</strong> and
+								<strong>protect</strong> your <strong>family</strong>
+							</p>
 						</h1>
+						<div class="header-cta-desc">
+							<p>
+								Advance Mortgage &amp; Protection makes everything simple and
+								most importantly, we care about you. We will guide and support
+								you through the mortgage process with expert, professional
+								advice you can trust.
+							</p>
+						</div>
+						<a
+							href="https://advancemp.co.uk/#contact-us"
+							data-scroll-target=".js-contact"
+							class="btn-block-section"
+							onclick="ga('send', 'event', { eventCategory: 'CTA', eventAction: 'Click', eventLabel: 'Contact Us'});"
+						>
+							<span class="btn-block-section-icon"
+								><svg role="presentation" class="icon">
+									<use xlink:href="#icon-smartphone"></use></svg></span
+							>&nbsp;&nbsp;Let's talk</a
+						>
 					</div>
 				</div>
 			</div>
@@ -555,9 +616,13 @@
 
 		<main role="main">
 			<div class="block-item title-block-background js-services">
-				<div
-					class="l-shadow-wrap l-shadow-wrap-padding title-block-title-wrap"
-				></div>
+				<div class="l-shadow-wrap l-shadow-wrap-padding title-block-title-wrap">
+					<span class="title-block-icon"
+						><svg role="presentation" class="icon">
+							<use xlink:href="#icon-controls"></use></svg
+					></span>
+					<h2 class="title-block-title">Services</h2>
+				</div>
 			</div>
 
 			<div class="block-item block-background">
@@ -565,36 +630,239 @@
 					<div
 						class="l-row u-box-padding--tall-top u-box-padding--tall-bottom u-border-bottom"
 					>
-						<div class="l-col">
-							<h2>Complaints Procedure</h2>
+						<div class="l-col-md-4 block-section-3">
+							<svg role="presentation" class="icon block-section-3-icon">
+								<use xlink:href="#icon-home"></use>
+							</svg>
+							<h3>Mortgages</h3>
+							<p></p>
 							<p>
-								If you wish to register a complaint, please contact us in
-								writing or by telephone to the following:
+								Whether you're a first time buyer, homeowner or a seasoned
+								investor Advance can help. With unrestricted access to the
+								mortgage market we'll drop the jargon and find you the best
+								options based on your circumstances.
 							</p>
-							<p class="no-margin-bottom">Address:</p>
-							<ul class="address-list list">
-								<li>The Complaints Officer</li>
-								<li>Cornerstone Finance</li>
-								<li>Unit E, Copse Walk</li>
-								<li>Cardiff Gate Business Park</li>
-								<li>Cardiff</li>
-								<li>CF23 8RB</li>
-								<li>Tel no: 02921 660 550</li>
-							</ul>
+							<p></p>
+						</div>
 
+						<div class="l-col-md-4 block-section-3">
+							<svg role="presentation" class="icon block-section-3-icon">
+								<use xlink:href="#icon-diploma"></use>
+							</svg>
+							<h3>Protection</h3>
+							<p></p>
 							<p>
-								If we cannot settle your complaint with us, you may be entitled
-								to refer it to the Financial Ombudsman Service who can be
-								contacted at:
+								No one knows what is around the corner so it is important you
+								are protected should the worst happen. It is easy to put off
+								arranging protection but at Advance we want to help you and your
+								family, giving you the most important thing - peace of mind.
 							</p>
-							<p class="no-margin-bottom">Address:</p>
-							<ul class="address-list list">
-								<li>The Financial Ombudsman Service</li>
-								<li>Exchange Tower</li>
-								<li>London</li>
-								<li>E14 9SR Tel</li>
-								<li>Tel no: 0800 0234 567</li>
-							</ul>
+							<p></p>
+						</div>
+
+						<div class="l-col-md-4 block-section-3">
+							<svg role="presentation" class="icon block-section-3-icon">
+								<use xlink:href="#icon-lock"></use>
+							</svg>
+							<h3>General Insurnace</h3>
+							<p></p>
+							<p>
+								From home or landlord cover to accident and sickness or
+								accident, sickness and unemployment cover we offer a complete
+								range of policies to suit your individual circumstances.
+							</p>
+							<p></p>
+						</div>
+					</div>
+
+					<div class="l-row u-box-padding--tall-top u-box-padding--tall-bottom">
+						<div class="l-col">
+							<p>
+								We aim to offer all our customers the best, most suitable
+								solution(s). With tailored and honest advice, we always strive
+								towards building long-term relationships with our clients. We
+								pride ourselves on not advertising or paying for any leads, all
+								our business comes from recommendations, or returning customers.
+							</p>
+							<p>
+								We offer out-of-hours appointments and home visits at a time to
+								suit you. We pride ourselves with getting it right first time
+								and once you've used our professional, efficient service, we
+								hope you'll choose to come back, and tell your friends.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="block-item block-background-img"
+				style="background-image: url('./src/img/hastings-seafront-min.jpg')"
+			>
+				<div class="header-overlay"></div>
+				<div class="l-shadow-wrap l-shadow-wrap-padding title-block-title-wrap">
+					<blockquote class="block-background-img-quote">
+						<cite></cite>
+					</blockquote>
+				</div>
+			</div>
+
+			<div class="block-item title-block-background js-testimonials">
+				<div class="l-shadow-wrap l-shadow-wrap-padding title-block-title-wrap">
+					<span class="title-block-icon"
+						><svg role="presentation" class="icon">
+							<use xlink:href="#icon-testimonials"></use></svg
+					></span>
+					<h2 class="title-block-title">Testimonials</h2>
+				</div>
+			</div>
+
+			<div class="block-item block-background">
+				<div class="l-shadow-wrap l-shadow-wrap-padding">
+					<div class="l-row u-box-padding--tall-top u-box-padding--tall-bottom">
+						<div class="l-col">
+							<p>This is what some of our happy customers have said…</p>
+						</div>
+					</div>
+
+					<div
+						class="l-row u-box-padding--tall-top u-box-padding--tall-bottom testimonials-wrap"
+					>
+						<div class="testimonials">
+							<article class="testimonial-item">
+								<div class="testimonial-item-content">
+									<h1 class="testimonial-item-content-title">
+										First time buyer
+									</h1>
+									<div class="testimonial-item-content-decs">
+										<p>
+											I can’t recommend Advance mortgage protection enough. I
+											turned to AMP when things were looking near impossible and
+											they found the affordable solution I was looking for well
+											within the timeframe I required, real professional, honest
+											and efficient service! Will go back and use AMP every time
+											with question. They took all the stress that comes with
+											mortgages away from me.
+										</p>
+									</div>
+									<div class="testimonial-item-content-name">
+										<div class="testimonial-item-avatar">
+											<img src="./src/img/male-avatar.png" alt="Avatar" />
+										</div>
+										<p>Sam - <span>Hastings</span></p>
+									</div>
+								</div>
+							</article>
+							<article class="testimonial-item">
+								<div class="testimonial-item-content">
+									<h1 class="testimonial-item-content-title">
+										First time buyer
+									</h1>
+									<div class="testimonial-item-content-decs">
+										<p>
+											As a first time buyers we used Advance Mortgage and
+											Protection on recommendation from our friends. We couldn't
+											be any happier... Andrew is very professional and fast. He
+											supported us in every step through the whole process . We
+											highly recommend this company and definitely will use
+											Andrew's services again in the future.<br />
+											Sona and Dalibor
+										</p>
+									</div>
+									<div class="testimonial-item-content-name">
+										<div class="testimonial-item-avatar">
+											<img src="./src/img/female-avatar.png" alt="Avatar" />
+										</div>
+										<p>Sona - <span>Hastings</span></p>
+									</div>
+								</div>
+							</article>
+							<article class="testimonial-item">
+								<div class="testimonial-item-content">
+									<h1 class="testimonial-item-content-title">
+										Buy to Let Remortgage
+									</h1>
+									<div class="testimonial-item-content-decs">
+										<p>
+											I used Andy for the first time (to remortgage my Buy to
+											Let flat) as a recommendation from a friend and found him
+											to be efficient, helpful and very knowledgeable.
+										</p>
+										<p>
+											It’s nice to get a call from a broker on a Saturday for an
+											update and Andy seems to always be available. Nice guy,
+											highly recommended.
+										</p>
+										<p>Kind regards</p>
+										<p>Donna</p>
+									</div>
+									<div class="testimonial-item-content-name">
+										<div class="testimonial-item-avatar">
+											<img src="./src/img/female-avatar.png" alt="Avatar" />
+										</div>
+										<p>Donna - <span>West London</span></p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="block-item block-background-img"
+				style="background-image: url('./src/img/Hastings_Pier-min.jpg')"
+			>
+				<div class="header-overlay"></div>
+				<div class="l-shadow-wrap l-shadow-wrap-padding title-block-title-wrap">
+					<blockquote class="block-background-img-quote">
+						<cite></cite>
+					</blockquote>
+				</div>
+			</div>
+
+			<div class="block-item title-block-background js-contact">
+				<div class="l-shadow-wrap l-shadow-wrap-padding title-block-title-wrap">
+					<span class="title-block-icon"
+						><svg role="presentation" class="icon">
+							<use xlink:href="#icon-smartphone"></use></svg
+					></span>
+					<h2 class="title-block-title">Contact Us</h2>
+				</div>
+			</div>
+
+			<div class="block-item block-background js-contact">
+				<div class="l-shadow-wrap l-shadow-wrap-padding">
+					<div class="l-row u-box-padding--tall-top u-box-padding--tall-bottom">
+						<div class="l-col">
+							<h3 class="block-inner-title">Contact us using these details</h3>
+
+							<div class="l-row l-flex-direction-row--md block-contact-row">
+								<div class="l-col-sm-6 flex-item">
+									<div class="block-contact-row-content">
+										<h3>Email:</h3>
+										<h4>
+											<a href="mailto:info@advancemp.co.uk" class="copy-link"
+												>info@advancemp.co.uk</a
+											>
+										</h4>
+									</div>
+								</div>
+
+								<div class="l-col-sm-6 flex-item">
+									<div class="block-contact-row-content">
+										<h3>Phone:</h3>
+										<h4>
+											<a href="tel:+441424577017" class="copy-link"
+												>01424 577017</a
+											><br />
+											<a href="tel:+447546988614" class="copy-link"
+												>07546 988614</a
+											>
+										</h4>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -606,8 +874,7 @@
 						<div class="l-col">
 							<small>
 								Advance Mortgage And Protection is a trading style of Andrew
-								David Swindles. Registered office: The Old Post House, 12 High
-								Street, Flimwell, Wadhurst, East Sussex, TN5 7PB.
+								David Swindles.
 							</small>
 							<small>
 								Andrew David Swindles is an Appointed Representative of
@@ -631,7 +898,6 @@
 								>
 							</small>
 							<div class="u-text-center u-box-margin--top footer-links">
-								<a href="./" class="footer-links__item">Home</a>
 								<a href="./complaints.html" class="footer-links__item"
 									>Complaints</a
 								>
